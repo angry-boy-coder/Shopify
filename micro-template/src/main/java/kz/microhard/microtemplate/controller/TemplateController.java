@@ -1,6 +1,6 @@
-package kz.microhard.microdelivery.controller;
+package kz.microhard.microtemplate.controller;
 
-import kz.microhard.microdelivery.service.DeliveryService;
+import kz.microhard.microtemplate.service.TemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,13 +9,11 @@ import org.springframework.web.client.RestTemplate;
 
 @Validated
 @RestController
-@RequestMapping("/delivery")
-public class DeliveryController {
+@RequestMapping("/template")
+public class TemplateController {
 
 	@Autowired
-	private DeliveryService deliveryService;
+	private TemplateService tempService;
 
-	@Autowired
-	private RestTemplate restTemplate;
 
 }

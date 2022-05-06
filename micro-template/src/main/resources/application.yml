@@ -1,9 +1,9 @@
 server:
   servlet:
-    context-path: /delivery-api
+    context-path: /temp-api
   application:
-    name: delivery-service
-  port: 8280
+    name: temp-service
+  port: 8090
 
 spring:
   main:
