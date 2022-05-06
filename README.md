@@ -18,11 +18,11 @@
 
 ### Microservices
 1. **AUTH :**
-   - **API :*
+**API :*
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
-   - **Model :*
+**Model :*
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
