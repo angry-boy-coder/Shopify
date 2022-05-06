@@ -16,13 +16,12 @@
 - **SQL Database engine** : PostgreSQL
 - **Maven**
 
-### Microservice
+### Microservices
 1. **AUTH :**
    - **API :*
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
-   
    - **Model :*
      - Get(product/list) 
      - getProductList(): List<Product> 
