@@ -17,7 +17,7 @@
 - **Maven**
 
 ### Microservice
-1. **Product :**
+1. **AUTH :**
    - **API :*
      - Get(product/list) 
      - getProductList(): List<Product> 
@@ -28,7 +28,29 @@
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
 
-2. **Sales :**
+2. **Product :**
+   - **API :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+   
+   - **Model :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+
+3. **Sales :**
+   - **API :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+   
+   - **Model :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+
+4. **Delivery :**
    - **API :*
      - Get(product/list) 
      - getProductList(): List<Product> 
