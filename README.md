@@ -19,7 +19,7 @@
 ### Microservice
 
 1. **Product :**
-   - * API *
+   - *API*
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
