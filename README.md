@@ -19,17 +19,16 @@
 ### Microservices
 1. **AUTH :**
    - **API :**
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
+     - POST(auth-service/oauth/token) 
    
    - **Model :**
-     - Name: String
-     - Price: Int
-     - ShopCenter: Address
-     - Rating: Double
-     - Description: String
-     - Image: String
+     - Username: String
+     - Password: String
+     - Email: String
+     - Enbaled: Boolean
+     - AccountNonExpired: Boolean
+     - CredentialsNonExpired: Boolean
+     - AccountNonLocked: Boolean
 
 2. **Product :**
    - **API :**
@@ -50,20 +49,6 @@
      - Get(sales/list) 
      - getSalesList(): List<Sales> 
      - Get(sales/{id}) getSales(id: int): Sales
-   
-   - **Model :*
-     - Name: String
-     - Price: Int
-     - ShopCenter: Address
-     - Rating: Double
-     - Description: String
-     - Image: String
-
-4. **Delivery :**
-   - **API :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
    
    - **Model :*
      - Name: String
