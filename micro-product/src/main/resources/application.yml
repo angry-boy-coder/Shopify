@@ -1,15 +1,13 @@
 server:
   servlet:
     context-path: /product-api
-  application:
-    name: product-service
-  port: 8280
+  port: 8480
 
 spring:
   main:
     allow-bean-definition-overriding: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/backend?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/backend
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
@@ -26,7 +24,7 @@ spring:
         format_sql: true
     generate-ddl: true
   application:
-    name: auth-service
+    name: product-service
 
 #eureka server url
 eureka:

@@ -7,7 +7,6 @@
         <artifactId>sdu</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>kz.microhard</groupId>
     <artifactId>micro-sales</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>micro-sales</name>
@@ -28,6 +27,11 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-security -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

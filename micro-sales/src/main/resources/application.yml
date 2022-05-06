@@ -1,8 +1,6 @@
 server:
   servlet:
     context-path: /sales-api
-  application:
-    name: sales-service
   port: 8380
 
 spring:
@@ -26,7 +24,7 @@ spring:
         format_sql: true
     generate-ddl: true
   application:
-    name: auth-service
+    name: sales-service
 
 #eureka server url
 eureka:

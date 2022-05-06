@@ -36,7 +36,7 @@ public class ProductController {
 		ProductDTO list = new ProductDTO();
 		SalesDTO salesDTO = new SalesDTO();
 		try {
-			String url = "http://sales-server/sales-api/sales/find/name/by-id?id=" + id;
+			String url = "http://sales-service/sales-api/sales/find/name/by-id?id=" + id;
 			ResponseEntity<SalesDTO> response = restTemplate.getForEntity(url, SalesDTO.class);
 			salesDTO = response.getBody();
 		} catch (Exception e) {

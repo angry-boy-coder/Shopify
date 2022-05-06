@@ -20,7 +20,7 @@
  insert into user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('2', 'nurzhan', '{bcrypt}$2a$12$1v8JU0uJr52LxdsvgKZPFuutFA1vo/.TlP7reaikPTNaudqft6Oq2','190113004@gmail.com', '1', '1', '1', '1');
  insert into user (id, username,password, email, enabled, accountNonExpired, credentialsNonExpired, accountNonLocked) VALUES ('3', 'aibol', '{bcrypt}$2a$12$1v8JU0uJr52LxdsvgKZPFuutFA1vo/.TlP7reaikPTNaudqft6Oq2','190103140@gmail.com', '1', '1', '1', '1');
  /*
- passowrds:
+ passwords:
  admin - admin
  nurzhan - nurzhan12345
  user - aibol12345
@@ -31,4 +31,4 @@ INSERT INTO ROLE_USER (ROLE_ID, USER_ID)
     VALUES
     (1, 1), /* admin-admin */,
     (2, 1), /* nurzhan-editor */ ,
-    (3, 2); /* aibol-operatorr */ ;
+    (3, 2); /* aibol-operator */ ;
