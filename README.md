@@ -18,36 +18,46 @@
 
 ### Microservices
 1. **AUTH :**
-**API :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
-**Model :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
-
-2. **Product :**
-   - **API :*
+   - **API :**
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
    
-   - **Model :*
+   - **Model :**
+     - Name: String
+     - Price: Int
+     - ShopCenter: Address
+     - Rating: Double
+     - Description: String
+     - Image: String
+
+2. **Product :**
+   - **API :**
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
+   
+   - **Model :**
+     - Name: String
+     - Price: Int
+     - ShopCenter: Address
+     - Rating: Double
+     - Description: String
+     - Image: String
 
 3. **Sales :**
    - **API :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
+     - Get(sales/list) 
+     - getSalesList(): List<Sales> 
+     - Get(sales/{id}) getSales(id: int): Sales
    
    - **Model :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
+     - Name: String
+     - Price: Int
+     - ShopCenter: Address
+     - Rating: Double
+     - Description: String
+     - Image: String
 
 4. **Delivery :**
    - **API :*
@@ -56,9 +66,12 @@
      - Get(products/{id}) getProduct(id: int): Product
    
    - **Model :*
-     - Get(product/list) 
-     - getProductList(): List<Product> 
-     - Get(products/{id}) getProduct(id: int): Product
+     - Name: String
+     - Price: Int
+     - ShopCenter: Address
+     - Rating: Double
+     - Description: String
+     - Image: String
    
 
 ### Features
