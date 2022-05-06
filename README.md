@@ -17,16 +17,28 @@
 - **Maven**
 
 ### Microservice
-
 1. **Product :**
-   - *API*
+   - **API :*
      - Get(product/list) 
      - getProductList(): List<Product> 
      - Get(products/{id}) getProduct(id: int): Product
    
-   - * Model *
-   - Orders management
-   - Recommendations management
+   - **Model :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+
+2. **Sales :**
+   - **API :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+   
+   - **Model :*
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+   
 
 ### Features
 
