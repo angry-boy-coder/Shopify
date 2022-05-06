@@ -16,6 +16,18 @@
 - **SQL Database engine** : PostgreSQL
 - **Maven**
 
+### Microservice
+
+1. **Product :**
+   - * API *
+     - Get(product/list) 
+     - getProductList(): List<Product> 
+     - Get(products/{id}) getProduct(id: int): Product
+   
+   - * Model *
+   - Orders management
+   - Recommendations management
+
 ### Features
 
 1. **Administrator :**
