@@ -20,15 +20,6 @@
 1. **AUTH :**
    - **API :**
      - POST(auth-service/oauth/token) 
-   
-   - **Model :**
-     - Username: String
-     - Password: String
-     - Email: String
-     - Enbaled: Boolean
-     - AccountNonExpired: Boolean
-     - CredentialsNonExpired: Boolean
-     - AccountNonLocked: Boolean
 
 2. **Product :**
    - **API :**
