@@ -12,6 +12,10 @@ zuul:
   ignored-services: "*"
   # Map paths to auth service
   routes:
+    auth-service:
+      path: /auth-api/**
+      serviceId: auth-service
+      stripPrefix: false
     product-service:
       path: /product-api/**
       serviceId: product-service
